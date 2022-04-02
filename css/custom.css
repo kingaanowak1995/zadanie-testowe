@@ -1,0 +1,222 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body, h1, h2, p {
+ margin: 0;
+ padding: 0;
+}
+/* Main page */
+.main-page {
+  margin-left: 85px;
+  margin-right: 118.5px;
+  height: 765px;
+}
+.main-page img {
+  position: absolute;
+}
+.main-page .page-image-1856 {
+  margin-left: 320px;
+  margin-top: 250px;
+}
+.main-page .page-image, .main-page .page-title {
+  display: table-cell;
+}
+.page-title {
+  width: 48%;
+  margin-top: 128px;
+  position: absolute;
+  margin-left: 43.7%;
+}
+.main-page .page-title h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 72px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 90px;
+  color: #00244D;
+  margin-bottom: 51px;
+}
+.main-page .page-title p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  color: #444444;
+  line-height: 24px;
+}
+/* Bootle */
+.bottle {
+  display: inline-block;
+  width: 100%;
+  padding: 0px;
+  height: 589px;
+}
+.bottle-center {
+  margin-left: 137px;
+  margin-right: 137px;
+}
+.bottle-text {
+  width: 40%;
+}
+.bottle-image .bottle-circle {
+  width: 545px;
+  height: 545px;
+  position: absolute;
+  background-color: #EBE4DB;
+  border-radius: 50%;
+  z-index: 1;
+  margin-left: 163px;
+  margin-top: -138px;
+}
+.bottle .bottle-text h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 72px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 90px;
+  color: #00244D;
+  margin-top: -23px;
+  margin-left: 2px;
+}
+.bottle .main-bottle {
+  position: absolute;
+  margin-left: 315px;
+  margin-top: -210px;
+  width: auto;
+  z-index: 100;
+}
+.bottle .bottle-image p {
+  font-family: 'segoescb', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  color: #444444;
+  line-height: 30px;
+}
+.bottle .bottle-text, .bottle .bottle-image {
+  display: inline-block;
+  float: left;
+  margin-top: 25px;
+}
+.bottle .bottle-information {
+  position: absolute;
+  z-index: 1000;
+  width: 220px;
+}
+.bottle .bottle-information.first {
+  position: absolute;
+  margin-top: -61px;
+  margin-left: -6px;
+}
+.bottle .bottle-information.first img {
+  margin-left: 97px;
+  margin-top: -42px;
+}
+.bottle .bottle-information.first p {
+  text-align: right;
+}
+.bottle .bottle-information.second {
+  position: absolute;
+  margin-top: -221px;
+  margin-left: 495px;
+}
+.bottle .bottle-information.second img {
+  transform: rotate(177deg);
+  -moz-transform: rotate(177deg);
+  -webkit-transform: rotate(177deg);
+  -o-transform: rotate(177deg);
+  -ms-transform: rotate(177deg);
+}
+.bottle .bottle-information.second p {
+  margin-left: 170px;
+  margin-top: -54px;
+}
+.bottle .bottle-information.third {
+  position: absolute;
+  margin-top: 116px;
+  margin-left: -76px;
+}
+.bottle .bottle-information.third img {
+  transform: scalex(-1) rotate(-175deg);
+  -moz-transform: scalex(-1) rotate(-175deg);
+  -webkit-transform: scalex(-1) rotate(-175deg);
+  -o-transform: scalex(-1) rotate(-175deg);
+  -ms-transform: scalex(-1) rotate(-175deg);
+  margin-left: 132px;
+  margin-top: 32px;
+}
+.bottle .bottle-information.third p {
+  text-align: right;
+  margin-top: -31px;
+}
+.bottle .bottle-information.fourth {
+  position: absolute;
+  margin-top: 147px;
+  margin-left: 520px;
+}
+.bottle .bottle-information.fourth img {
+  transform: rotate(195deg);
+  -moz-transform: rotate(195deg);
+  -webkit-transform: rotate(195deg);
+  -o-transform: rotate(195deg);
+  -ms-transform: rotate(195deg);
+}
+.bottle .bottle-information.fourth p {
+  margin-left: 269px;
+  margin-top: -100px;
+  width: 100%;
+}
+/* Product */
+.product {
+  display: inline-block;
+  width: 100%;
+  padding-left: 12px;
+}
+.product-center {
+  margin-left: 113px;
+  margin-right: 113px;
+}
+.product-box {
+  display: inline-block;
+  float: left;
+  background-color: #EBE4DB;
+  border-radius: 40px;
+  width: 520px;
+  height: 635px;
+  margin-left: 17.5px;
+  margin-right: 17.5px;
+  margin-bottom: 80px;
+  padding-bottom: 80px;
+}
+.product h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 72px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 90px;
+  color: #00244D;
+  margin-bottom: 77px;
+}
+.product .product-box h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 41px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 47px;
+  color: #00244D;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+.product-box img {
+  margin: 0 auto;
+  display: block;
+  margin-top: -25px;
+  margin-bottom: 61px;
+}
+.product-box .bottle-pet {
+  margin-top: -14px;
+}
